@@ -1,0 +1,238 @@
+/* Estilos generales para todos los dispositivos */
+.tarjeta,
+.blog {
+   
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Media query para tablets (768px de ancho) */
+@media only screen and (max-width: 768px) {
+    .tarjeta,
+    .blog  {
+        width: 90%;
+        padding: 15px;
+    }
+}
+
+/* Media query para teléfonos (480px de ancho) */
+@media only screen and (max-width: 480px) {
+    .tarjeta,
+    .blog {
+        width: 95%;
+        padding: 10px;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #FAFAF9;
+    font-size: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 800
+
+.sora-<uniquifier> {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+}   
+
+.tarjeta{
+margin-top: 5rem;
+width: 16rem;
+height: auto;
+background-color: #FFFFFF;
+border-radius: 1rem;
+box-shadow: 10px 15px 15px 10px rgba(17, 23, 41, 0.05);
+
+}
+
+.bloqueimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.foto{
+    border-radius: 0.5rem;
+    width: 364px;
+    height: 155px;
+    /*
+    width: 18rem;
+    height: 9rem;
+    */
+   
+}
+
+.bloque__titulo1{
+
+    background-color:#E6D6FC;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 1rem;
+ 
+    
+   }
+
+.titulo1{
+    color: blueviolet;
+    font-size: 0.5rem;
+    font-weight: bold;
+  
+
+}
+
+
+.bloque__titulo{
+    width: auto;
+    margin: auto;
+    margin-top: 0.5rem;
+    font-size: 0.4rem;
+  
+}
+
+
+
+
+.boque__texto{
+    width: auto;
+    margin: auto;
+    margin-top: 1rem;
+  
+  
+}
+
+.texto{
+    color: rgb(87, 83, 83);
+}
+
+
+.bloquesolo{
+    background-color: black;
+    width: 100%;
+    margin: auto;
+    margin-top: 1rem;
+    height: 0.5px;
+
+
+}
+
+.firma{
+    width: 100%;
+    margin: auto;
+    margin-top: 1.2rem;
+  
+}
+
+.nombre{
+    
+}
+
+
+
+/**BLOG CARD*/
+
+
+
+.blog{
+   
+    margin: auto;
+    margin-top: 5rem;
+    width: 20REM;
+    height: 23rem;
+    background-color: rgba(7, 205, 255, 0.521);
+    border-radius: 1rem;
+    border: solid 1px rgb(0, 0, 0);
+
+}
+
+
+.bloque__img{
+    width: 100%;
+    height: auto;
+
+
+}
+
+
+.legion{
+    border-radius: 1rem;
+    width:100%;
+    height: 10rem;
+   
+}
+
+
+.encabezado__blog{
+   margin-top: 1rem;
+}
+
+
+.texto__blog{
+    margin-top: 1rem;
+
+
+}
+
+
+
+
+.footer{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+    
+   
+    
+}
+
+
+
+
+
+
+.icon{
+    width: 12%;
+    height: auto;
+    margin: auto;
+
+}
+
+.idimg{
+    width: 100%;
+    height: 100%;
+       border-radius: 5rem;
+}
+
+.id{
+    width: 80%;
+    height: auto;
+  
+}
+
+.id__nombre{
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+
+.id__puesto{
+    font-size: 0.4;
+    color: darkgray;
+}
